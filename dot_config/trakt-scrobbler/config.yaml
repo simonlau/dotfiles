@@ -1,0 +1,8 @@
+
+
+fileinfo:
+    whitelist: [/Volumes/tp-share/backup]
+
+players:
+    monitored: [vlc]
+version: '1.0'
