@@ -129,7 +129,7 @@ for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
 
-export PATH="${HOMEBREW_PREFIX}/opt/openssl/bin:$PATH"
+
 
 eval "$(mise activate zsh)"
 zstyle ':zim:plugins:alias-finder' autoload yes
@@ -137,16 +137,6 @@ zstyle ':zim:plugins:alias-finder' autoload yes
 eval "$(starship init zsh)"
 
 export LS_COLORS="$(vivid generate catppuccin-latte)"
-
-PATH=~/.console-ninja/.bin:$PATH
-
-export PATH="/Users/simon.lau/.bun/bin:$PATH"
-
-# Created by `pipx` on 2025-07-06 13:26:06
-export PATH="$PATH:/Users/simon.lau/.local/bin"
-
-# Created by `pipx` on 2025-07-06 13:26:06
-export PATH="$PATH:/Users/simon.lau/Library/Python/3.9/bin"
 
 . "$HOME/.atuin/bin/env"
 

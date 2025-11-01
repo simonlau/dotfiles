@@ -2,3 +2,18 @@
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+export PATH="${HOMEBREW_PREFIX}/opt/openssl/bin:$PATH"
+PATH=~/.console-ninja/.bin:$PATH
+
+export PATH="/Users/simon.lau/.bun/bin:$PATH"
+
+# Created by `pipx` on 2025-07-06 13:26:06
+export PATH="$PATH:/Users/simon.lau/.local/bin"
+
+# Created by `pipx` on 2025-07-06 13:26:06
+export PATH="$PATH:/Users/simon.lau/Library/Python/3.9/bin"
+
+export EDITOR=nvim
+export VISUAL=nvim
+
