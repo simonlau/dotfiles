@@ -132,10 +132,10 @@ unset key
 
 export HOMEBREW_CASK_OPTS="--appdir=~/Casks --fontdir=~/Library/Fonts"
 
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"
 zstyle ':zim:plugins:alias-finder' autoload yes
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 export LS_COLORS="$(vivid generate catppuccin-latte)"
 
