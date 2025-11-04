@@ -1,0 +1,5 @@
+# Set the theme for light and dark
+--theme-dark="Catppuccin Mocha"
+--theme-light="Catppuccin Latte"
+
+--squeeze-blank
