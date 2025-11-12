@@ -39,6 +39,7 @@ zmodule homebrew
 zmodule fzf
 zmodule kiesman99/zim-zoxide
 zmodule shanwker1223/zim-alias-finder
+# zmodule shihanng/zim-atuin
 zmodule joke/zim-chezmoi
 zmodule joke/zim-starship
 #

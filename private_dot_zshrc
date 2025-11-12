@@ -130,7 +130,6 @@ unset key
 # }}} End configuration added by Zim install
 
 
-export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_CASK_OPTS="--appdir=~/Casks --fontdir=~/Library/Fonts"
 
 # eval "$(mise activate zsh)"
