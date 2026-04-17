@@ -1,8 +1,11 @@
 
+players:
+
+    mpv:
+        ipc_path: /tmp/mpvsocket
+    monitored: [mpv, vlc]
+
 
 fileinfo:
-    whitelist: [/Volumes/tp-share/backup]
-
-players:
-    monitored: [vlc]
+    whitelist: [/Volumes/tp-share/backup, /Volumes/volume(sdb1)/backup]
 version: '1.0'
