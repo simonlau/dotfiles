@@ -45,7 +45,7 @@ smart_splits.apply_to_config(config, {
 -- config.font = wezterm.font("FiraCode Nerd Font", { weight = "Regular", stretch = "Normal", style = "Normal" })
 -- config.font = wezterm.font("IosevkaTerm Nerd Font")
 -- config.font = wezterm.font("MonaspiceXe Nerd Font", { weight = "Regular" })
-config.font = wezterm.font("Monaspace Xenon", { weight = "Regular", stretch = "Normal", style = "Normal" })
+config.font = wezterm.font("Monaspace Xenon Var", { weight = "Regular", stretch = "Normal", style = "Normal" })
 config.harfbuzz_features = { "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09" }
 -- config.font = wezterm.font("Monoid Nerd Font", { weight = "Regular", stretch = "SemiCondensed", style = "Normal" })
 -- config.harfbuzz_features = { "zero", "cv04", "cv02", "ss05", "ss04" }
