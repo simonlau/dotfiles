@@ -4,7 +4,7 @@
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
 export PATH="${HOMEBREW_PREFIX}/opt/openssl/bin:$PATH"
-PATH=~/.console-ninja/.bin:$PATH
+export PATH="$HOME/.console-ninja/.bin:$PATH"
 
 export PATH="/Users/simon.lau/.bun/bin:$PATH"
 
@@ -17,3 +17,4 @@ export PATH="$PATH:/Users/simon.lau/Library/Python/3.9/bin"
 export EDITOR=nvim
 export VISUAL=nvim
 
+eval "$(mise activate zsh --shims)"
