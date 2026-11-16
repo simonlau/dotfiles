@@ -1,7 +1,10 @@
 git:
   diffRenderers:
-    - colorArg: always
-      type: rawGit
-    - command: delta --detect-dark-light always --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
-    - command: difft --color=always
+    - name: delta
+      command: delta --{{colorScheme}} --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
+    - name: difft
       type: extDiff
+      command: difft --color=always --background={{colorScheme}} --display=inline --syntax-highlight=on --context={{diffContext}}
+    - name: raw git
+      type: rawGit
+      colorArg: always
