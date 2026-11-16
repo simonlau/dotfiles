@@ -1,16 +1,14 @@
-
 # fonts
 font-size = 16
 font-style = medium
 bold-is-bright = true
 theme = light: Catppuccin Latte, dark:Catppuccin Mocha
-font-family = Monaspace Xenon Var
+font-family = "JetBrains Mono" "Symbols Nerd Font"
 font-feature = calt, liga, ss01, ss02, ss03, ss04, ss05, ss06, ss07, ss08, ss09
 
 # cursor
 cursor-style = block
 cursor-style-blink = false
-
 
 # clipboard
 copy-on-select = clipboard
